@@ -1,19 +1,19 @@
 use python 3.10.6
 
-#create Virtual Environtment
+# create Virtual Environtment
 python3.10.6 -m venv venv
 
-#kalau ga bisa 
+# or
 python -m venv venv
 
-#run venv
+# run venv
 venv\Scripts\activate
 
-#library
+# library
 pip install streamlit keras joblib yfinance scikit-learn matplotlib pandas numpy seaborn plotly tensorflow ta
 
-#update yfinance
+# update yfinance
 pip install yfinance --upgrade --no-cache-dir
 
-#run streamlit
+# run streamlit
 streamlit run app.py
